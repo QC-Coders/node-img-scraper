@@ -1,14 +1,16 @@
 {
   "name": "img_scraper",
   "version": "1.0.0",
-  "description": "A simple image scraper",
+  "description": "\"A simple scraper of images\"",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Michael Liendo",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "request": "^2.74.0"
   }
 }
